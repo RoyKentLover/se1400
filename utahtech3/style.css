@@ -41,7 +41,10 @@ nav{
 
         }
         #homehero{
-            background-image:url(homehero.jpg);
+            <img src= "homehero.jpg" width= "300" alt ="Home Hero Ima"
+            
+
+
         }
        
 

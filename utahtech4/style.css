@@ -10,7 +10,7 @@ nav a {
 body{
     background-color:#FFFFFF;
     color:#666666;
-    
+    margin: 0px;
     font-family:Verdana;   
 }
 header{
@@ -28,15 +28,13 @@ dt{
     color:#003059;
     font-weight:bold;
 }
-#wrapper{
-    background-attachment: #ffffff;
-    min-width: 960px;
-    max-width: 2048px;
-    margin-right:auto;
-    margin-left:auto;
-    width:80%;
-    box-shadow: 0px 3px 3px rgba(66, 66, 66, 0.3);
+#wrapper {
+  all: unset;
+  display: grid;
+  grid-auto-rows: minmax(0px, auto);
+  grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
 }
+
 #ut{
     color:#BA1C21;
 }
@@ -84,6 +82,9 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+* {
+  box-sizing: border-box;
 }
            
        

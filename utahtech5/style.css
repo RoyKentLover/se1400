@@ -1,0 +1,136 @@
+nav{
+    font-weight:bold;
+    background-color:#424242 ;
+    top: 0;
+    grid-row: 2 / 3;
+    grid-column: 2 / -2;
+    position: sticky;
+}
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 1rem 0rem;
+    display: block;
+    text-align: center;
+}
+nav a:hover {
+  background-color: #BA1C21;
+}
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-flow: row nowrap;
+  list-style-type: none;
+}
+nav ul li {
+  width: 100%;
+}
+
+
+body{
+    background-color:#FFFFFF;
+    color:#666666;
+    margin: 0px;
+    font-family:Verdana;   
+}
+header{
+    background-color:#003058;
+    color:#FFFFFF;
+    font-family:Georgia;
+    grid-row: 1 / 2;
+    grid-column: 2 / -2; 
+}
+header a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+h2{
+    line-height: 140%;
+    padding: .5rem;
+    color:#424242;
+    font-family:Georgia;
+}
+dt{
+    color:#003059;
+    font-weight:bold;
+}
+#wrapper {
+  all: unset;
+  display: grid;
+  grid-auto-rows: minmax(0px, auto);
+  grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+}
+
+#ut{
+    color:#BA1C21;
+}
+footer{
+    font: size 0.70rem;
+    font-style: italic;
+    text-align: center;
+    padding: 1rem;
+    grid-row: 5 / 6;
+    grid-column: 2 / -2;
+    }
+h1 {
+  background-image: url('utahtechlogo.svg'); 
+  background-position: right center;
+  background-repeat: no-repeat;
+  padding-left: 1em;
+  background-origin: content-box;
+  margin: 0;
+}
+h3 {
+  color: #003058;
+}
+
+main {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  grid-row: 4 / 5;
+  grid-column: 2 / -2; 
+  background: #ffffff;
+
+}
+
+#homehero {
+  height: 300px;
+  background-image: url('homehero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  grid-row: 3 / 4;
+  grid-column: 2 / -2;
+
+}
+#studenthero {
+    height: 300px;
+    background-image: url("studenthero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-row: 3 / 4;
+    grid-column: 2 / -2;
+
+}
+
+#facultyhero {
+    height: 300px;
+    background-image: url("facultyhero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-row: 3 / 4;
+    grid-column: 2 / -2;
+
+}
+* {
+  box-sizing: border-box;
+}
+main img {
+    float: right;
+    padding-left: 2rem;
+}
+
+
